@@ -1,0 +1,53 @@
+body {
+     background-image: url(fondo.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+.form {
+    margin-top: 130px;
+}
+
+.div {
+    display: flex;
+    justify-content: center; 
+    width: 40%;
+    margin-inline: 30%;
+}
+
+.barra {
+    
+    font-size: 30px;
+    width: 300px;
+    border-radius: 0.5rem;
+    padding: 10px;
+    background-color: rgb(77, 133, 255);
+    -webkit-box-shadow: 10px 1px 39px 8px rgba(255,255,255,1);
+-moz-box-shadow: 10px 1px 39px 8px rgba(255,255,255,1);
+box-shadow: 10px 1px 39px 8px rgba(255,255,255,1);
+}
+
+.numeros {
+    border-radius: 1rem;
+    width: 80px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 10px 1px 39px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 1px 39px 0px rgba(255,255,255,1);
+    box-shadow: 10px 1px 39px 0px rgba(255,255,255,1);
+    transition: all 190ms;
+}
+
+.numeros:hover {
+    background-color: rgb(77, 133, 255);
+    border-radius: 100px;
+}
+
+
